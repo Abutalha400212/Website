@@ -1,0 +1,224 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+.main{
+    background-image: url(pc.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 100px;
+    float: left;
+    padding-top: 8px;
+    color: #ff7200;
+}
+.menu{
+    width: 400px;
+    float: left;
+    padding-top: 5px;
+}
+ul{
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+   .menu ul li{
+     margin-left: 60px;
+     margin-top: 27px;
+     font-size: 14px;
+     list-style: none;
+    }
+    .menu ul li a{
+        text-decoration: none;
+        color:#fff;
+        font-family: Arial;
+        font-weight: bold;
+        transition: 0,4s, ease;
+    }
+    .menu> ul>li>a:hover {
+        color: #ff7200;
+    }
+    .search{
+        display: flex;
+        width: 30px;
+        float: left;
+        margin-left: 270px;
+    }
+    .srch{
+        font-family: Arial;
+        width: 200px;
+        height: 40px;
+        background: transparent;
+        border: 1px solid #ff7200;
+        margin-top: 20px;
+        color:white;
+        border-right: none;
+        font-size: 16px;
+        float: left;
+        padding: 10px;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+    .btn{
+        width: 100px;
+        height: 40px;
+        background: #ff7200;
+        border: 2px solid #ff7200;
+        margin-top: 20px;
+        color: #fff;
+        font-size: 15px;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .btn:focus{
+        outline: none;
+    }
+    .srch:focus{
+        outline:none;
+    }
+    .content{
+        width: 1200px;
+        height: 0;
+        margin: 0;
+        color: #fff;
+        position: relative;
+    }
+    .content .par{
+        padding-left: 20px;
+        padding-bottom: 25px;
+        font-family: Arial;
+        letter-spacing: 1.2px;
+        line-height: 30px;
+    }
+    .content h1{
+        font-family: 'Times New Roman';
+        font-size: 40px;
+        padding-top: 120px;
+        padding-left: 20px;
+        letter-spacing: 2px;
+    }
+    .content .cn{
+        width: 160px;
+        height: 40px;
+        border: none;
+        background: #ff7200;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        font-size: 18px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .content .cn a{
+        text-decoration: none;
+        color: #000;
+        transition: .3s ease;
+    }
+    .cn:hover{
+        background-color: #fff;
+    }
+.content span{
+    color: #ff7200;
+    font-size: 50px;
+}
+.form{
+    width: 250px;
+    height: 360px;
+   background-color: #000;
+    position: absolute;
+    top: 130px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 30px;
+    border-top: 100px;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    background-color: #fff;
+    color:#f37610;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 24px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    border-bottom: 2px solid #f37610;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color:#fff;
+    background: transparent;
+    font-size: 15px;
+    margin-top: 25px;
+    font-family: sans-serif;
+
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color:#fff;
+    font-family: Arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    background-color: #ff7200;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.btnn:hover{
+    background-color: #fff;
+    color: white;
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+.form .link{
+    font-family: Arial;
+    font-size: 17px;
+    padding-top:20px;
+    text-align: center;
+}
+.form a{
+    text-decoration: none;
+    color: #f37610;
+
+}
+.liw{
+    text-align: center;
+    padding-top: 20px;
+
+}
+.icon{
+    color: #fff;
+    padding-left: 14px;
+    font-size: 30px;
+}
