@@ -1,31 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title> Website</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" href="gh.webp" type="image/x-icon">
 </head>
 <body>
- <div class="main">
-    <div class="navbar">
+<main>
+    <nav> 
         <div class="icon">
             <h2 class="logo">HeRoic</h2>
         </div>
         <div class="menu">
             <ul>
-                <li><a href="#">HOME</a></li>
+                <li><a href="#">HOME
+                    <ul class="dropdown">
+                        <li><a href="#">Information</a></li>
+                        <li><a href="#">Introduction</a></li>
+                        <li><a href="#">Know us</a></li>
+                        <li><a href="#">Support Us</a></li>
+                        <li><a href="Course">javascript</a></li>
+                    </ul>
+                </a></li>
                 <li><a href="#">ABOUT</a></li>
-                <li><a href="#">SERVICE</a></li>
+                <li><a href="#">SERVICE
+                    <ul class="dropdown">
+                        <li><a href="#">Html</a></li>
+                        <li><a href="#">Css</a></li>
+                        <li><a href="#">Phython</a></li>
+                        <li><a href="#">C++</a></li>
+                        <li><a href="#">javascript</a></li>
+                    </ul>
+                </a></li>
                 <li><a href="#">DESIGN</a></li>
                 <li><a href="#">CONTACT</a></li>
             </ul>
         </div>
         <div class="search">
-            <input class="srch" type="Search" name="" placeholder="type to text">
-            <a href=""><button class="btn">Search</button></a>
+            <input class="srch" type="Search" name="" placeholder="Searching Here">
+            <a href="www.google.com"><button class="btn">Search</button></a>
         </div>
+          <div class="down" >
+            <label for="membership">Type of Membership:</label>
+            <select name="membership" id="membership">
+             <option value="free">Free</option>
+                <option value="bronze">Bronze</option>
+                     <option value="silver" selected>Silver</option>
+                        <option value="Gold">Gold</option>
+                                                           </select>
+          </div>  
+        
 
-        <div class="content">
+    </nav>
+    </div>
+       <div class="content">
             <h1>Web Design & <br><span>Development</span><br>Course</h1>
             <p class="par">The design exists to present this information in <br> an organized way  and to add functionality and style. <br> Having content developed early in the process means <br> the design that can be molded around it.</p>
             <button class="cn"><a target="_blank" href="https://www.linkedin.com/in/abu-talha-4b8b50170/">JOIN US</a></button>
@@ -37,21 +67,23 @@
                 
                 <button class="btnn"><a href="">Log in</a></button>
                 <p class="link">Don't have an account<br>
-                <a target="_blank" href="create.html">Sign Up </a>Here</p>
+                <a target="_blank" href="create.html">Sign Up </a>Here  </p>
            
-                <p class="liw">Log in With</p>
-  
-
+                <p class="liw">Log in With</p>   
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-twitter"></a>
+                            <a href="#" class="fa fa-google"></a>
+                            <a href="#" class="fa fa-linkedin"></a>
+                            <a href="#" class="fa fa-youtube"></a>
+                            <a href="#" class="fa fa-instagram"></a>
                 </div>
-
             </div>
         </div>
-        </div>
-        </div>
-    
- </div>
+ </div> 
+</main>
  <footer>
     <p><small>Created & Developed by Abu Talha</small></p>
  </footer>
+ 
 </body>
 </html>

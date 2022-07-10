@@ -1,0 +1,16 @@
+.drop{
+    position: relative;
+    font-family: Arial;
+}
+.drop select{
+    display: none;
+    background-color: DodgerBlue;
+}
+.select-item{
+    position: absolute;
+  background-color: DodgerBlue;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
